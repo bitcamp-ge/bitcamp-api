@@ -1,0 +1,14 @@
+uuid: 75c03018-eee3-4753-9046-1fb4286fd244
+langcode: en
+status: true
+dependencies: {  }
+id: developer
+label: Developer
+display_label: Developer
+multiple: true
+registration: true
+roles:
+  authenticated: authenticated
+  developer: developer
+allow_revisions: false
+new_revision: false

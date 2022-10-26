@@ -1,0 +1,14 @@
+uuid: 29d6c86c-afce-44ab-a278-c36a213291ef
+langcode: en
+status: true
+dependencies: {  }
+id: mentor
+label: Mentor
+display_label: Mentor
+multiple: true
+registration: true
+roles:
+  authenticated: authenticated
+  mentor: mentor
+allow_revisions: false
+new_revision: false

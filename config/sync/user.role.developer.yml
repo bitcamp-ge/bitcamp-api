@@ -1,0 +1,20 @@
+uuid: 7a9f0d10-ddaf-4df3-8fac-6b5a1c0e47bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: developer
+label: Developer
+weight: 4
+is_admin: null
+permissions:
+  - 'access profile overview'
+  - 'create company profile'
+  - 'create developer profile'
+  - 'update own developer profile'
+  - 'view any developer profile'
+  - 'view any profile'
+  - 'view own developer profile'
+  - 'view own profile'
+  - 'view own unpublished profile'

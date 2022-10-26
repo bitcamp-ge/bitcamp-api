@@ -1,0 +1,22 @@
+uuid: 3c9ad123-3081-4e18-aea9-a8744c6b5651
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.developer.field_bio
+    - profile.type.developer
+  module:
+    - text
+id: profile.developer.default
+targetEntityType: profile
+bundle: developer
+mode: default
+content:
+  field_bio:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

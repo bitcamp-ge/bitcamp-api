@@ -1,0 +1,22 @@
+uuid: 287eb25a-4beb-4628-9bfe-4adb3f7d53b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.mentor.field_bio
+    - profile.type.mentor
+  module:
+    - text
+id: profile.mentor.default
+targetEntityType: profile
+bundle: mentor
+mode: default
+content:
+  field_bio:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

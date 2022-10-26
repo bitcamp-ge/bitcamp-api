@@ -1,0 +1,29 @@
+uuid: 0cc7f446-599c-4ce3-9811-d150708ef36e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.service
+  module:
+    - node
+    - profile
+id: mentor
+label: Mentor
+weight: 5
+is_admin: null
+permissions:
+  - 'access profile overview'
+  - 'create company profile'
+  - 'create mentor profile'
+  - 'create service content'
+  - 'delete own service content'
+  - 'delete service revisions'
+  - 'edit own service content'
+  - 'revert service revisions'
+  - 'update own mentor profile'
+  - 'view any mentor profile'
+  - 'view any profile'
+  - 'view own mentor profile'
+  - 'view own profile'
+  - 'view own unpublished profile'
+  - 'view service revisions'

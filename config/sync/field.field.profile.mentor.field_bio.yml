@@ -1,0 +1,21 @@
+uuid: f76e6eb0-8362-4873-8afe-935bc96edd4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_bio
+    - profile.type.mentor
+  module:
+    - text
+id: profile.mentor.field_bio
+field_name: field_bio
+entity_type: profile
+bundle: mentor
+label: Bio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

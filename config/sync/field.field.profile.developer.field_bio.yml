@@ -1,0 +1,21 @@
+uuid: 5249c489-2c0d-4526-b249-5e3cf2e8908c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_bio
+    - profile.type.developer
+  module:
+    - text
+id: profile.developer.field_bio
+field_name: field_bio
+entity_type: profile
+bundle: developer
+label: Bio
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

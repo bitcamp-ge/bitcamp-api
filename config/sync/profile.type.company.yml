@@ -1,0 +1,14 @@
+uuid: 25342541-c949-44a4-a1ac-f1e06b94e591
+langcode: en
+status: true
+dependencies: {  }
+id: company
+label: Company
+display_label: Company
+multiple: true
+registration: true
+roles:
+  authenticated: authenticated
+  company: company
+allow_revisions: false
+new_revision: false

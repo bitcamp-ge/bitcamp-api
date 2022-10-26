@@ -1,0 +1,14 @@
+uuid: 56db3470-cb34-4fe9-9759-b36be991d96f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.company
+  module:
+    - user
+id: user_add_role_action.company
+label: 'Add the Company role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: company

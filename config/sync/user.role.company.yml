@@ -1,0 +1,19 @@
+uuid: ad17bbe8-1ba9-45e7-ad19-b5b3c84b7d7a
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: company
+label: Company
+weight: 6
+is_admin: null
+permissions:
+  - 'access profile overview'
+  - 'create company profile'
+  - 'update own company profile'
+  - 'view any company profile'
+  - 'view any profile'
+  - 'view own company profile'
+  - 'view own profile'
+  - 'view own unpublished profile'
